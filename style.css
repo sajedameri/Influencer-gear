@@ -34,7 +34,7 @@
 }
 .section-Influencer-card{
   display: flex;
-  
+  justify-content: space-between;
 }
 .card{
   
@@ -72,4 +72,41 @@
   display: flex;
  justify-content: space-around;
   gap: 10px;
+}
+.cards{
+  width: 330px;
+  height: 476px;
+  border: 2px solid red;
+  background-color:rgba(255, 255, 255, 1)
+  margin: left 10px;
+ 
+}
+/* .icone{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+} */
+.img{
+  margin: 15px;
+
+}
+.tripod-tittle{
+  margin-top: 5px;
+}
+.renk{
+  margin-top: 1px;
+}
+.popular-collection-tittel{
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+}
+.card-paragrep{
+  font-weight: 300;
+  font-size: 1rem;
+}
+/* card section style */
+.card-Popular-Collection{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
