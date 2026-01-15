@@ -46,6 +46,7 @@
   height: 414px;
   background-image: url(./images/Circle\ design.svg);
   margin-right: 120px;
+  margin-top: 50px;
 }
 .influencer-tittle{
   font-weight: 700;
@@ -55,4 +56,20 @@
 .paragrep{
   font-weight: 600;
   font-size: 1rem;
+}
+.button-1{
+  background-color: #E02C6D;
+  padding: 10px 24px;
+  color: aliceblue;
+  border-radius: 25px;
+  border: none;
+}
+.section-item-apps{
+  max-width: 1440px;
+  margin:165px
+}
+.item-apps{
+  display: flex;
+ justify-content: space-around;
+  gap: 10px;
 }
