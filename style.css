@@ -32,3 +32,27 @@
   align-items: center;
   gap: 30px;
 }
+.section-Influencer-card{
+  display: flex;
+  
+}
+.card{
+  
+  margin: 120px;
+
+}
+.img-1{
+  width: 440px;
+  height: 414px;
+  background-image: url(./images/Circle\ design.svg);
+  margin-right: 120px;
+}
+.influencer-tittle{
+  font-weight: 700;
+  font-size: 3rem;
+
+}
+.paragrep{
+  font-weight: 600;
+  font-size: 1rem;
+}
