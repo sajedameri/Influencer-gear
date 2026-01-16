@@ -147,29 +147,89 @@
   text-align: center;
   padding-top: 30px;
 }
-@media screen and (max-width: 576px) {
-  .all-cards
-  .footer
-  .all-cards
-  .featured-section-item
-  .brand
-  .manu
 
-  {
+@media screen and (max-width: 576px) {
+  .navber{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     margin: 20px;
   }
+  .manu{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+  }
+  .section-Influencer-card{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1f);
+    padding: 20px;
+  }
+  .influencer-tittle{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .paragrep{
+    text-align: center;
+    justify-content: center;
+  }
+  .button-1{
+    margin-left: 70px;
+    
+    
+  }
+  .img-1{
+    width: 60%;
+ margin: 10px;
+   padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .item-apps{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 40px;
+  }
+ 
+/* .featured-section-item{
   
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  align-content: center;
+} */
 .featured-section-item{
-  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px ;
+  
+  align-items: center;
+ 
+}
+.featured-img{
+ 
+ margin: 0;
+  
+  width: 100%;
+}
+   
+.all-cards {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
-.featured-section{
-    margin-left: 20px;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
+.feature-tittle{
+  text-align: center;
+  margin: 0;
 }
+.feature-paragrep{
+  padding: 20px;
+}
+.popular-collection-tittel{
+  font-weight: 500;
+  font-size: 2rem;
+}
+ 
 }
